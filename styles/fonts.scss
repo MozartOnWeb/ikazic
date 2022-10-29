@@ -1,0 +1,22 @@
+/* Import fonts */
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../assets/fonts/Clash_Display/ClashDisplay-Variable.woff2")
+      format("woff2"),
+    url("../assets/fonts/Clash_Display/ClashDisplay-Variable.woff")
+      format("woff"),
+    url("../assets/fonts/Clash_Display/ClashDisplay-Variable.ttf")
+      format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("../assets/fonts/Inter/Inter.var.woff2") format("woff2");
+}

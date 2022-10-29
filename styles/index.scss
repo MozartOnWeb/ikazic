@@ -1,0 +1,15 @@
+/* Import scss reset*/
+@import "./reset.scss";
+
+/* Import variables */
+@import "./variables.scss";
+
+/* Import fonts*/
+@import "./fonts.scss";
+
+/* Import global styles */
+@import "./global.scss";
+
+/* Import components styles */
+@import "../components/Footer/Footer.scss";
+@import "../components/NavBar/NavBar.scss";
