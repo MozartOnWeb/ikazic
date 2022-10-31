@@ -1,0 +1,51 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: $background_color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+}
+
+.logo img {
+  width: 60px;
+  height: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 45rem;
+
+  .active {
+    color: $green;
+    font-weight: 400;
+  }
+
+  a {
+    font-weight: 200;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: $white;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+}
+
+.goToNewsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: $white;
+  padding: 15px 35px;
+  background: linear-gradient(90deg, $green30 0%, $red30 100%);
+  cursor: pointer;
+
+  span {
+    font-family: $heading_font;
+    font-weight: 400;
+    font-size: 0.95rem;
+  }
+}
