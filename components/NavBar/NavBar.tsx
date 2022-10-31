@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="links">
         <Link
           activeClass="active"
-          to="home"
+          to="welcome"
           spy={true}
           smooth={true}
           duration={500}
