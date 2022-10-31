@@ -1,5 +1,8 @@
 import Head from "next/head";
 
+//Import pages
+import { Welcome, About, Features, Goals, FAQs, Newsletter } from "../sections";
+
 //Import components
 import NavBar from "../components/NavBar/NavBar";
 
@@ -16,12 +19,12 @@ export default function Home() {
       </Head>
       <NavBar />
 
-      <section id="home"></section>
-      <section id="about"></section>
-      <section id="features"></section>
-      <section id="goals"></section>
-      <section id="faqs"></section>
-      <section id="newsletter"></section>
+      <Welcome />
+      <About />
+      <Features />
+      <Goals />
+      <FAQs />
+      <Newsletter />
     </div>
   );
 }
