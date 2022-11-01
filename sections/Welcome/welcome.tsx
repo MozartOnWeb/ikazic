@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Welcome = () => {
-  return <section id="welcome">Welcome</section>;
+  return <section id="welcome"></section>;
 };
 
 export default Welcome;
