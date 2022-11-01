@@ -1,2 +1,73 @@
 #welcome {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .welcome-waves {
+    margin-top: 50%;
+    margin-left: -10%;
+    position: absolute;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h1 {
+    font-family: $heading_font;
+  }
+
+  .first-heading {
+    line-height: 1.2;
+    font-size: clamp(2rem, 4vw + 1rem, 4rem);
+    font-weight: bold;
+    margin-top: 10vw;
+  }
+
+  .right-section {
+    text-align: center;
+    .second-heading {
+      font-size: clamp(1.8rem, 4vw + 1rem, 3.8rem);
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      font-family: $body_font;
+      font-weight: 200;
+      font-size: 0.8rem;
+      margin-bottom: 3rem;
+      line-height: 1rem;
+    }
+  }
+
+  .welcome-mockup {
+    margin-inline: auto;
+    width: 75vw;
+    height: 75vw;
+  }
+
+  .stores {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    .store {
+      text-decoration: none;
+      color: $white;
+      display: flex;
+      align-items: center;
+      padding: 0.7rem 1rem;
+      width: 11rem;
+      background: linear-gradient(90deg, $green30 0%, $red30 100%);
+
+      img {
+        width: 2rem;
+        height: 2.3rem;
+        margin-right: 1rem;
+      }
+
+      p {
+      }
+    }
+  }
 }

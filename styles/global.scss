@@ -2,10 +2,12 @@ html {
   background-color: $background_color;
   color: $white;
   font-family: $body-font;
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 1200px;
+  width: 90vw;
+  padding-inline: 2vw;
   margin-inline: auto;
 }
 
