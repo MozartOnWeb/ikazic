@@ -17,11 +17,11 @@ export const Welcome = () => {
       <h1 className="first-heading">
         Toute la musique malienne dans votre poche
       </h1>
-      <Image
+      {/* <Image
         className="welcome-mockup"
         src={welcomeMockup}
         alt="ikazic player screen"
-      />
+      /> */}
       <div className="right-section">
         <h1 className="second-heading">Ikazic</h1>
         <p className="description">

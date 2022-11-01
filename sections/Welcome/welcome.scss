@@ -16,7 +16,7 @@
     position: absolute;
     top: 8rem;
     line-height: 5rem;
-    font-size: 4rem;
+    font-size: clamp(2rem, 10vw + 1rem, 4rem);
     font-weight: bold;
     width: 550px;
   }
@@ -43,10 +43,10 @@
 
   .welcome-mockup {
     position: absolute;
-    top: 0%;
-    left: 25%;
-    width: 700px;
-    height: 700px;
+    bottom: 2%;
+    left: 23%;
+    width: 42rem;
+    height: 42rem;
   }
 
   .stores {
