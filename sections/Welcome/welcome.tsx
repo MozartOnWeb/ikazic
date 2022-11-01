@@ -15,13 +15,13 @@ export const Welcome = () => {
         <Image src={welcomeWaves} alt="ikazic waves" />
       </div>
       <h1 className="first-heading">
-        Toute la musique malienne dans votre poche
+        Toute la musique <br /> malienne dans <br /> votre poche
       </h1>
-      {/* <Image
+      <Image
         className="welcome-mockup"
         src={welcomeMockup}
         alt="ikazic player screen"
-      /> */}
+      />
       <div className="right-section">
         <h1 className="second-heading">Ikazic</h1>
         <p className="description">
