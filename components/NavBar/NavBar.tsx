@@ -4,12 +4,16 @@ import { Link } from "react-scroll";
 //import logo
 import logo from "../../assets/extra/logo.png";
 
+//import components
+import DrawerElement from "../drawer/Drawer";
+
 const NavBar = () => {
   return (
     <nav>
       <div className="logo">
         <Image src={logo} alt="ikazic logo" />
       </div>
+      <DrawerElement />
       <div className="links">
         <Link
           activeClass="active"

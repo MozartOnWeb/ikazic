@@ -1,0 +1,20 @@
+.drawer {
+  transition: all 0.5s ease;
+  .humburger-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, $green30 0%, $red30 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      width: 30px;
+      height: 30px;
+      path {
+        stroke: $white;
+      }
+    }
+  }
+}
