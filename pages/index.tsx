@@ -5,6 +5,7 @@ import { Welcome, About, Features, Goals, FAQs, Newsletter } from "../sections";
 
 //Import components
 import NavBar from "../components/NavBar/NavBar";
+import Drawer from "../components/drawer/Drawer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
+      <Drawer />
 
       <Welcome />
       <About />

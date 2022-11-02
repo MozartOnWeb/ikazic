@@ -15,9 +15,10 @@ nav {
 }
 
 .links {
-  display: flex;
-  justify-content: space-between;
-  width: 45rem;
+  display: none;
+  // display: flex;
+  // justify-content: space-between;
+  // width: 45rem;
 
   .active {
     color: $green;
@@ -35,7 +36,8 @@ nav {
 }
 
 .goToNewsletter {
-  display: flex;
+  display: none;
+  // display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
