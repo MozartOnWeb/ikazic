@@ -4,5 +4,6 @@ import FAQs from "./FAQs/faqs";
 import Features from "./Features/features";
 import Newsletter from "./Newsletter/newsletter";
 import Goals from "./Goals/goals";
+import HowItWork from "./HowItWork/HowItWork";
 
-export { Welcome, About, FAQs, Features, Newsletter, Goals };
+export { Welcome, About, FAQs, Features, Newsletter, Goals, HowItWork };

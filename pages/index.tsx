@@ -1,7 +1,15 @@
 import Head from "next/head";
 
 //Import pages
-import { Welcome, About, Features, Goals, FAQs, Newsletter } from "../sections";
+import {
+  Welcome,
+  About,
+  Features,
+  Goals,
+  FAQs,
+  Newsletter,
+  HowItWork,
+} from "../sections";
 
 //Import components
 import NavBar from "../components/NavBar/NavBar";
@@ -22,6 +30,7 @@ export default function Home() {
       <Drawer />
 
       <Welcome />
+      <HowItWork />
       <About />
       <Features />
       <Goals />
