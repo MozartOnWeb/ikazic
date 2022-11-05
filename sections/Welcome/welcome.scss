@@ -75,10 +75,6 @@
     }
   }
   //Responsive
-  @media screen and (max-width: 768px) {
-  }
-  //Responsive
-  //Responsive
   @media screen and (max-width: 1024px) {
     .welcome-waves {
       margin-top: 55%;
@@ -116,6 +112,19 @@
     }
   }
   //Responsive
+  @media (max-width: 640px) {
+    .stores .store {
+      width: 8rem;
+      p {
+        font-size: 0.75rem;
+      }
+      img {
+        width: 1.2rem;
+        height: 1.4rem;
+        margin-right: 1rem;
+      }
+    }
+  }
   //Responsive
   @media screen and (min-width: 769px) {
     flex-direction: row;
