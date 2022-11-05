@@ -68,9 +68,9 @@ const NavBar = () => {
         smooth={true}
         offset={-100}
         duration={500}
-        className="goToNewsletter"
+        className="goToWaitlist"
       >
-        <span>Newsletter</span>
+        <span>Waitlist</span>
       </Link>
     </nav>
   );
