@@ -5,50 +5,87 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 10px;
   z-index: 100;
-}
 
-.logo img {
-  width: 60px;
-  height: 30px;
-}
-
-.links {
-  display: none;
-  // display: flex;
-  // justify-content: space-between;
-  // width: 45rem;
-
-  .active {
-    color: $green;
-    font-weight: 400;
+  .scrollIndicator {
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
   }
 
-  a {
-    font-weight: 200;
-    font-size: 0.85rem;
+  .logo img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+
+    .active {
+      color: $green;
+      font-weight: 400;
+    }
+
+    a {
+      font-weight: 200;
+      font-size: 0.85rem;
+      text-decoration: none;
+      color: $white;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+  }
+
+  .goToWaitlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: $white;
-    transition: all 0.2s ease;
+    background: linear-gradient(90deg, $green30 0%, $red30 100%);
     cursor: pointer;
-  }
-}
 
-.goToNewsletter {
-  display: none;
-  // display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: $white;
-  padding: 15px 35px;
-  background: linear-gradient(90deg, $green30 0%, $red30 100%);
-  cursor: pointer;
-
-  span {
-    font-family: $heading_font;
-    font-weight: 400;
-    font-size: 0.95rem;
+    span {
+      font-family: $heading_font;
+      font-weight: 400;
+      font-size: 0.95rem;
+    }
   }
+
+  //Responsive
+  @media screen and (max-width: 768px) {
+    padding-block: 15px;
+    .links {
+      display: none;
+    }
+    .goToWaitlist {
+      padding: 10px 30px;
+    }
+  }
+  //Responsive
+  //Responsive
+  @media screen and (max-width: 1024px) {
+    padding-block: 15px;
+    .links {
+      width: 30rem;
+    }
+    .goToWaitlist {
+      padding: 10px 30px;
+    }
+  }
+  //Responsive
+  //Responsive
+  @media screen and (min-width: 1025px) {
+    padding-block: 15px;
+    .links {
+      width: 45rem;
+    }
+    .goToWaitlist {
+      padding: 10px 30px;
+    }
+  }
+  //Responsive
 }
