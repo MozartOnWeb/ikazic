@@ -12,7 +12,7 @@ export const Welcome = () => {
   return (
     <section id="welcome">
       <div className="welcome-waves">
-        <Image src={welcomeWaves} alt="ikazic waves" />
+        <Image src={welcomeWaves} alt="ikazic waves" quality={100} />
       </div>
       <h1 className="first-heading">
         Toute la musique <br /> malienne dans <br /> votre poche
@@ -21,6 +21,7 @@ export const Welcome = () => {
         className="welcome-mockup"
         src={welcomeMockup}
         alt="ikazic player screen"
+        quality={100}
       />
       <div className="right-section">
         <h1 className="second-heading">Ikazic</h1>
