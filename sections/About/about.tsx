@@ -38,17 +38,20 @@ export const About = () => {
             className="headphone"
             src={headphone}
             alt="headphone icon in about section"
+            quality={100}
           />
           <Image className="note" src={note} alt="note icon in about section" />
           <Image
             className="micro"
             src={micro}
             alt="micro icon in about section"
+            quality={100}
           />
           <Image
             className="backward"
             src={backward}
             alt="backwrad icon in about section"
+            quality={100}
           />
         </div>
 

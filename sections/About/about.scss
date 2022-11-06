@@ -57,34 +57,116 @@
       }
     }
     .about-icons {
-      background-color: rgb(212, 209, 221);
       width: 100%;
       height: 100%;
-      position: relative;
+      position: absolute;
       img {
         position: absolute;
         z-index: 1;
-        opacity: 0.7;
       }
       .headphone {
         transform: scale(0.08);
-        left: 12%;
-        top: -70%;
+        left: 10vw;
+        top: -25vw;
+        padding: 5rem;
+        background-color: $green;
+        border-radius: 100%;
       }
       .micro {
         transform: scale(0.13);
-        left: 60%;
-        top: -30%;
+        right: -10vw;
+        bottom: 5vw;
+        background-color: $red;
+        border-radius: 100%;
       }
       .note {
-        transform: scale(0.1);
-        left: -10%;
-        top: 30%;
+        transform: scale(0.08);
+        left: 5vw;
+        bottom: -20vw;
+        padding: 5rem;
+        background-color: $red;
+        border-radius: 100%;
       }
       .backward {
         transform: scale(0.08);
-        left: 40%;
-        top: 30%;
+        right: 5vw;
+        bottom: -22vw;
+        padding: 5rem;
+        background-color: $green;
+        border-radius: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    height: auto;
+    .bottom-section {
+      .about-icons {
+        display: none;
+      }
+      .mockups {
+        width: 90%;
+        img {
+          width: 30%;
+          height: 30%;
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    height: auto;
+    .top-section {
+      margin-bottom: 3rem;
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-family: $body_font;
+        font-weight: 200;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        width: 100%;
+      }
+    }
+    .bottom-section {
+      .mockups {
+        margin-inline: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 40%;
+          height: 40%;
+          margin-bottom: 1rem;
+        }
+        .second-mockup {
+          margin-top: 0rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    .top-section {
+      margin-bottom: 3rem;
+      h3 {
+        font-size: 1.2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.4rem;
+      }
+      p {
+        font-family: $body_font;
+        font-weight: 200;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        width: 100%;
       }
     }
   }
