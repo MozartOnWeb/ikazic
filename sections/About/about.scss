@@ -1,0 +1,173 @@
+#about {
+  height: 100vh;
+  .top-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    h3 {
+      font-family: $heading_font;
+      font-size: 1.5rem;
+      font-weight: 200;
+      color: $green;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: $heading_font;
+      font-size: 3rem;
+      font-weight: bold;
+      color: $white;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-family: $body_font;
+      font-weight: 200;
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+      line-height: 1rem;
+      width: 100%;
+    }
+  }
+
+  .bottom-section {
+    position: relative;
+    .about-wave {
+      margin-top: 10%;
+      margin-left: 30%;
+      transform: translateX(-30%);
+      position: absolute;
+      z-index: -1;
+      img {
+        width: 100%;
+        height: 100%;
+        transform: scale(2);
+      }
+    }
+    .mockups {
+      margin-inline: auto;
+      width: 65%;
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 26%;
+        height: 26%;
+      }
+
+      .second-mockup {
+        margin-top: 4rem;
+      }
+    }
+    .about-icons {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      img {
+        position: absolute;
+        z-index: 1;
+      }
+      .headphone {
+        transform: scale(0.08);
+        left: 10vw;
+        top: -25vw;
+        padding: 5rem;
+        background-color: $green;
+        border-radius: 100%;
+      }
+      .micro {
+        transform: scale(0.13);
+        right: -10vw;
+        bottom: 5vw;
+        background-color: $red;
+        border-radius: 100%;
+      }
+      .note {
+        transform: scale(0.08);
+        left: 5vw;
+        bottom: -20vw;
+        padding: 5rem;
+        background-color: $red;
+        border-radius: 100%;
+      }
+      .backward {
+        transform: scale(0.08);
+        right: 5vw;
+        bottom: -22vw;
+        padding: 5rem;
+        background-color: $green;
+        border-radius: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    height: auto;
+    .bottom-section {
+      .about-icons {
+        display: none;
+      }
+      .mockups {
+        width: 90%;
+        img {
+          width: 30%;
+          height: 30%;
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    height: auto;
+    .top-section {
+      margin-bottom: 3rem;
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-family: $body_font;
+        font-weight: 200;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        width: 100%;
+      }
+    }
+    .bottom-section {
+      .mockups {
+        margin-inline: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 40%;
+          height: 40%;
+          margin-bottom: 1rem;
+        }
+        .second-mockup {
+          margin-top: 0rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    .top-section {
+      margin-bottom: 3rem;
+      h3 {
+        font-size: 1.2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.4rem;
+      }
+      p {
+        font-family: $body_font;
+        font-weight: 200;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        width: 100%;
+      }
+    }
+  }
+}
