@@ -28,7 +28,9 @@ export const Features = () => {
         {/* features list */}
         <div className="features-list">
           <div className="list-item">
-            <div className="icon"></div>
+            <div className="icon">
+              <Image src={forward} alt="forward icon" />
+            </div>
             <div className="content">
               <h4>Streaming illimité</h4>
               <p>
@@ -39,7 +41,9 @@ export const Features = () => {
           </div>
 
           <div className="list-item">
-            <div className="icon"></div>
+            <div className="icon">
+              <Image src={download} alt="download icon" />
+            </div>
             <div className="content">
               <h4>Ecoutez vos morceaux hors ligne</h4>
               <p>
@@ -50,7 +54,9 @@ export const Features = () => {
           </div>
 
           <div className="list-item">
-            <div className="icon"></div>
+            <div className="icon">
+              <Image src={money} alt="money icon" />
+            </div>
             <div className="content">
               <h4>Achetez vos albums favoris</h4>
               <p>
