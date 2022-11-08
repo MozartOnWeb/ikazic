@@ -1,9 +1,25 @@
+import Image from "next/image";
 import React from "react";
+
+// import mockups
+import featuresMockup1 from "../../assets/mockups/features.png";
+
+// import icons
+import forward from "../../assets/icons/forward-colored.png";
+import download from "../../assets/icons/download.png";
+import money from "../../assets/icons/money.png";
 
 export const Features = () => {
   return (
     <section id="features">
-      <div className="left-section"></div>
+      <div className="left-section">
+        <div className="background-gradient"></div>
+        <Image
+          src={featuresMockup1}
+          quality={100}
+          alt="features first mockup"
+        />
+      </div>
       <div className="right-section">
         <h3>fonctionnalités</h3>
         <h1>
