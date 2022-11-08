@@ -8,6 +8,9 @@ import featuresMockup1 from "../../assets/mockups/features.png";
 import forward from "../../assets/icons/forward-colored.png";
 import download from "../../assets/icons/download.png";
 import money from "../../assets/icons/money.png";
+import phone from "../../assets/icons/phone.png";
+import ui from "../../assets/icons/interface.png";
+import folder from "../../assets/icons/folder.png";
 
 export const Features = () => {
   return (
@@ -70,7 +73,7 @@ export const Features = () => {
           {/* features list */}
         </div>
       </section>
-
+      {/* reverse section */}
       <section className="features-item reverse">
         <div className="left-section">
           <div className="background-gradient"></div>
@@ -89,10 +92,10 @@ export const Features = () => {
           <div className="features-list">
             <div className="list-item">
               <div className="icon">
-                <Image src={forward} alt="forward icon" />
+                <Image src={phone} alt="phone icon" />
               </div>
               <div className="content">
-                <h4>Streaming illimité</h4>
+                <h4>Une application cross-plateforme</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate illum porro doloribus, laboriosam blanditiis.
@@ -102,10 +105,10 @@ export const Features = () => {
 
             <div className="list-item">
               <div className="icon">
-                <Image src={download} alt="download icon" />
+                <Image src={ui} alt="ui icon" />
               </div>
               <div className="content">
-                <h4>Ecoutez vos morceaux hors ligne</h4>
+                <h4>Une interface simple et épurée</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate illum porro doloribus, laboriosam blanditiis.
@@ -115,10 +118,10 @@ export const Features = () => {
 
             <div className="list-item">
               <div className="icon">
-                <Image src={money} alt="money icon" />
+                <Image src={folder} alt="folder icon" />
               </div>
               <div className="content">
-                <h4>Achetez vos albums favoris</h4>
+                <h4>Un lecteur local</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptate illum porro doloribus, laboriosam blanditiis.
