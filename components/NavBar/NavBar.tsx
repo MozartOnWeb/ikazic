@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src={logo} alt="ikazic logo" />
+        <Image quality={100} src={logo} alt="ikazic logo" />
       </div>
       <div className="links">
         <Link
