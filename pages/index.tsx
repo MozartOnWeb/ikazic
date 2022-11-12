@@ -13,7 +13,6 @@ import {
 
 //Import components
 import NavBar from "../components/NavBar/NavBar";
-import Drawer from "../components/drawer/Drawer";
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
         <title>IKAZIC</title>
         <meta
           name="description"
-          content="La meilleure plateforme de streaming au Mali."
+          content="Ikazic, La meilleure plateforme de streaming au Mali."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
