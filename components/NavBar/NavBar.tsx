@@ -63,7 +63,7 @@ const NavBar = () => {
         </Link>
       </div>
       <Link
-        to="newsletter"
+        to="waitlist"
         spy={true}
         smooth={true}
         offset={-100}

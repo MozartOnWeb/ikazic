@@ -7,7 +7,7 @@ import {
   Features,
   Goals,
   FAQs,
-  Newsletter,
+  Waitlist,
   HowItWork,
 } from "../sections";
 
@@ -33,7 +33,7 @@ export default function Home() {
         <Features />
         <Goals />
         <FAQs />
-        <Newsletter />
+        <Waitlist />
       </div>
     </div>
   );
