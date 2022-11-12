@@ -50,6 +50,7 @@
           color: $green;
           font-family: $heading_font;
           font-size: 1.2rem;
+          font-weight: 400;
           margin-bottom: 0.5rem;
         }
         p {
@@ -58,6 +59,67 @@
           font-size: 0.9rem;
           line-height: 1rem;
         }
+      }
+    }
+  }
+
+  //making that shit responsive
+  @media (max-width: 1024px) {
+    padding: 3rem;
+    .top-section {
+      margin-bottom: -1rem;
+      h3 {
+      }
+      h1 {
+      }
+      p {
+      }
+    }
+    .bottom-section {
+      .faqs-item {
+        .faq {
+          h4 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 760px) {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    .about-wave {
+      top: 20%;
+      right: 5%;
+    }
+    .top-section {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .bottom-section {
+      flex-direction: column;
+      .faqs-item {
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    .about-wave {
+      top: 20%;
+      right: -15%;
+    }
+    .bottom-section {
+      flex-direction: column;
+      .faqs-item {
+        width: 100%;
+        align-items: center;
       }
     }
   }
