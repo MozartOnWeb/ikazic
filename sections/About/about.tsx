@@ -60,16 +60,19 @@ export const About = () => {
             className="first-mockup"
             src={firstMockup}
             alt="first mockup in about section"
+            priority={true}
           />
           <Image
             className="second-mockup"
             src={secondMockup}
             alt="second mockup in about section"
+            priority={true}
           />
           <Image
             className="last-mockup"
             src={thirdMockup}
             alt="third mockup in about section"
+            priority={true}
           />
         </div>
       </div>

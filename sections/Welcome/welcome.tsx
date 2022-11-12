@@ -22,6 +22,7 @@ export const Welcome = () => {
         src={welcomeMockup}
         alt="ikazic player screen"
         quality={100}
+        priority={true}
       />
       <div className="right-section">
         <h1 className="second-heading">Ikazic</h1>
