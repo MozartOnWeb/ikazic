@@ -5,5 +5,6 @@ import Features from "./Features/features";
 import Waitlist from "./Waitlist/waitlist";
 import Goals from "./Goals/goals";
 import HowItWork from "./HowItWork/howItWork";
+import Footer from "./Footer/footer";
 
-export { Welcome, About, FAQs, Features, Waitlist, Goals, HowItWork };
+export { Welcome, About, FAQs, Features, Waitlist, Goals, HowItWork, Footer };
