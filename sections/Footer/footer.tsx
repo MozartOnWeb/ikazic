@@ -36,17 +36,17 @@ const Footer = () => {
             spy={true}
             smooth={true}
             duration={500}
-            offset={-200}
+            offset={-100}
           >
             A propos
           </Link>
           <Link
-            activeClass="features"
-            to="about"
+            activeClass="active"
+            to="features"
             spy={true}
             smooth={true}
             duration={500}
-            offset={-200}
+            offset={-100}
           >
             Fonctionnalités
           </Link>
@@ -59,11 +59,10 @@ const Footer = () => {
           <p>00223-78437323</p>
         </div>
 
-        <div className="details">
+        <div className="details last-detail">
           <h3>A propos de nous</h3>
           <p>L&apos;équipe</p>
           <p>Notre Histoire</p>
-          <p>00223-78437323</p>
         </div>
       </div>
       <div className="bottom-section">
