@@ -17,7 +17,7 @@ import Drawer from "../components/drawer/Drawer";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>IKAZIC</title>
         <meta
@@ -27,14 +27,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-
-      <Welcome />
-      <HowItWork />
-      <About />
-      <Features />
-      <Goals />
-      <FAQs />
-      <Newsletter />
+      <div className="container">
+        <Welcome />
+        <HowItWork />
+        <About />
+        <Features />
+        <Goals />
+        <FAQs />
+        <Newsletter />
+      </div>
     </div>
   );
 }

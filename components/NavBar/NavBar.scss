@@ -1,6 +1,9 @@
 nav {
   position: sticky;
   top: 0;
+  left: 0;
+  width: 100%;
+  padding-inline: 7vw;
   background-color: $background_color;
   display: flex;
   justify-content: space-between;
