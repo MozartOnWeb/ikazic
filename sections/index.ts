@@ -2,8 +2,8 @@ import About from "./About/about";
 import Welcome from "./Welcome/welcome";
 import FAQs from "./FAQs/faqs";
 import Features from "./Features/features";
-import Newsletter from "./Newsletter/newsletter";
+import Waitlist from "./Waitlist/waitlist";
 import Goals from "./Goals/goals";
-import HowItWork from "./HowItWork/HowItWork";
+import HowItWork from "./HowItWork/howItWork";
 
-export { Welcome, About, FAQs, Features, Newsletter, Goals, HowItWork };
+export { Welcome, About, FAQs, Features, Waitlist, Goals, HowItWork };
