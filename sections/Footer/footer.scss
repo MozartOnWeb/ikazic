@@ -113,6 +113,23 @@
   }
   @media (max-width: 769px) {
     background-color: cyan;
+    padding: 4rem 5rem;
+    height: auto;
+    .content {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      .ikazic {
+        width: 100%;
+      }
+      .details {
+        margin-bottom: 2rem;
+      }
+    }
+    .bottom-section {
+      bottom: 2%;
+    }
   }
   @media (max-width: 480px) {
     background-color: blueviolet;
