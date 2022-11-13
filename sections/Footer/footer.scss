@@ -79,4 +79,30 @@
       }
     }
   }
+
+  //making that shit responsive
+  @media (max-width: 1024px) {
+    .content {
+      .ikazic {
+        img {
+        }
+        p {
+        }
+      }
+      .details {
+        h3 {
+        }
+        a {
+        }
+        p {
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    background-color: cyan;
+  }
+  @media (max-width: 480px) {
+    background-color: blueviolet;
+  }
 }
