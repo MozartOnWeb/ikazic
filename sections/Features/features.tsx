@@ -3,6 +3,7 @@ import React from "react";
 
 // import mockups
 import featuresMockup1 from "../../assets/mockups/features.png";
+import featuresMockup2 from "../../assets/mockups/features2.png";
 
 // import icons
 import forward from "../../assets/icons/forward-colored.png";
@@ -78,7 +79,7 @@ export const Features = () => {
         <div className="left-section">
           <div className="background-gradient"></div>
           <Image
-            src={featuresMockup1}
+            src={featuresMockup2}
             quality={100}
             alt="features first mockup"
           />
