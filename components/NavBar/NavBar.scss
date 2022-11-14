@@ -5,6 +5,8 @@ nav {
   width: 100%;
   padding-inline: 7vw;
   background-color: $background_color;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
