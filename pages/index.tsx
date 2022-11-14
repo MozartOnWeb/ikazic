@@ -9,6 +9,7 @@ import {
   FAQs,
   Waitlist,
   HowItWork,
+  Footer,
 } from "../sections";
 
 //Import components
@@ -35,6 +36,7 @@ export default function Home() {
         <FAQs />
         <Waitlist />
       </div>
+      <Footer />
     </div>
   );
 }

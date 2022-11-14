@@ -1,0 +1,136 @@
+#footer {
+  height: 50vh;
+  background-color: $gray;
+  padding: 3rem 10rem;
+  position: relative;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .ikazic {
+      width: 25%;
+      img {
+        width: 65px;
+        height: 35px;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-family: $body_font;
+        font-weight: 200;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+        width: 100%;
+      }
+    }
+    .details {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      h3 {
+        font-family: $heading_font;
+        color: $green;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+      }
+      a {
+        cursor: pointer;
+        transition: all 1s ease;
+        margin-bottom: 1.2rem;
+        font-family: $body_font;
+        font-weight: 300;
+        &:hover {
+          color: $green;
+        }
+      }
+      p {
+        margin-bottom: 1.2rem;
+        font-family: $body_font;
+        font-weight: 300;
+      }
+    }
+  }
+  .bottom-section {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    .divider {
+      height: 1px;
+      width: 90vw;
+      background: linear-gradient(90deg, $red30, $green, $red30);
+    }
+    .copyright-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 1rem;
+      span {
+        font-family: $heading_font;
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+
+  //making that shit responsive
+  @media (max-width: 1024px) {
+    padding: 3rem 5rem;
+    .content {
+      .ikazic {
+        img {
+        }
+        p {
+        }
+      }
+      .details {
+        h3 {
+          font-size: 1.2rem;
+        }
+        a {
+          font-size: 0.9rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+      }
+      .last-detail {
+        align-self: auto;
+      }
+    }
+    .bottom-section {
+      .divider {
+      }
+      .copyright-content {
+        span {
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    padding: 4rem 5rem;
+    height: auto;
+    .content {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      .ikazic {
+        width: 100%;
+      }
+      .details {
+        margin-bottom: 2rem;
+      }
+    }
+    .bottom-section {
+      bottom: 2%;
+    }
+  }
+  @media (max-width: 480px) {
+    padding: 4rem 3rem;
+  }
+}
