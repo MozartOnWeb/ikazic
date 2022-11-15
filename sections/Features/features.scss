@@ -163,4 +163,16 @@
       }
     }
   }
+
+  //make that shit responsive for 480px screens
+  @media (max-width: 480px) {
+    .features-item {
+      .left-section {
+        img {
+          width: 70%;
+          height: 70%;
+        }
+      }
+    }
+  }
 }

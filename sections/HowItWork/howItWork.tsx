@@ -15,7 +15,7 @@ const HowItWork = () => {
           aliquip ex ea commodo consequat.
         </p>
         <Link href={"/#"} className="download">
-          <span>Télécharger</span>
+          <span>Waitlist</span>
         </Link>
       </section>
       {/* left section */}
