@@ -27,8 +27,20 @@ export const Goals = () => {
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
-          {/* bottom part */}
-          <div className="part">
+
+          {/* hidden part on desktop */}
+          <div className="part desktop-hidden">
+            <div className="number number-red">2</div>
+            <h4>Pour les artistes</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              eos, ipsam doloribus nostrum ex iste.
+            </p>
+          </div>
+          {/* hidden part on desktop */}
+
+          {/* hidden part on mobile */}
+          <div className="part mobile-hidden">
             <div className="number number-red">3</div>
             <h4>Pour le Mali</h4>
             <p>
@@ -36,6 +48,7 @@ export const Goals = () => {
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
+          {/* hidden part on mobile */}
         </div>
         {/* bottom-left section */}
 
@@ -51,17 +64,32 @@ export const Goals = () => {
         {/* bottom-right section */}
         <div className="bottom-left-right right">
           {/* top part */}
+
+          {/* hidden part on mobile */}
           <div className="part">
-            <div className="number number-red">2</div>
+            <div className="number number-red number-2">2</div>
             <h4>Pour les utilisateurs</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
+          {/* hidden part on mobile */}
+
+          {/* hidden part on desktop */}
+          <div className="part desktop-hidden">
+            <div className="number number-red">3</div>
+            <h4>Pour les utilisateurs</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              eos, ipsam doloribus nostrum ex iste.
+            </p>
+          </div>
+          {/* hidden part on desktop */}
+
           {/* bottom part */}
           <div className="part">
-            <div className="number">4</div>
+            <div className="number number-4">4</div>
             <h4>Pour l&apos;Afrique</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
