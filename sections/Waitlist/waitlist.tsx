@@ -1,6 +1,21 @@
 import React from "react";
 
 export const Waitlist = () => {
+  //submit form function
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+
+    const form = e.target;
+
+    const formData = new FormData(form);
+
+    const email = formData.get("email");
+
+    form.reset();
+
+    console.log(email);
+  };
+
   return (
     <section id="waitlist">
       <div className="top-section">
@@ -13,11 +28,13 @@ export const Waitlist = () => {
       </div>
 
       <div className="bottom-section">
-        <form action="">
+        <form onSubmit={handleSubmit}>
           <input
             className="input"
             placeholder="votre adresse mail"
-            type="text"
+            type="email"
+            name="email"
+            id="email"
           />
           <button className="submit" type="submit">
             Rejoindre
