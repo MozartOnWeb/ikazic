@@ -210,4 +210,20 @@
       }
     }
   }
+  //responsive for 320px
+  @media (max-width: 320px) {
+    background-color: rgba(35, 12, 149, 0.43);
+    .bottom-section {
+      .bottom-center {
+        .colored-bg {
+          width: 15rem;
+          height: 15rem;
+        }
+        .mockup-container {
+          width: 55%;
+          height: 55%;
+        }
+      }
+    }
+  }
 }
