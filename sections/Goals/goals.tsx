@@ -15,10 +15,10 @@ export const Goals = () => {
           corrupti eaque aspernatur sed perferendis animi?
         </p>
       </div>
+
       <div className="bottom-section">
         {/* bottom-left section */}
         <div className="bottom-left-right left">
-          {/* top part */}
           <div className="part">
             <div className="number">1</div>
             <h4>Pour les artistes</h4>
@@ -28,19 +28,18 @@ export const Goals = () => {
             </p>
           </div>
 
-          {/* hidden part on desktop */}
-          <div className="part desktop-hidden">
+          {/* hide on desktop */}
+          <div className="part hide-on-desktop">
             <div className="number number-red">2</div>
-            <h4>Pour les artistes</h4>
+            <h4>Pour les utilisateurs</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
-          {/* hidden part on desktop */}
+          {/* hide on desktop */}
 
-          {/* hidden part on mobile */}
-          <div className="part mobile-hidden">
+          <div className="part hide-on-mobile">
             <div className="number number-red">3</div>
             <h4>Pour le Mali</h4>
             <p>
@@ -48,7 +47,6 @@ export const Goals = () => {
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
-          {/* hidden part on mobile */}
         </div>
         {/* bottom-left section */}
 
@@ -63,33 +61,28 @@ export const Goals = () => {
 
         {/* bottom-right section */}
         <div className="bottom-left-right right">
-          {/* top part */}
-
-          {/* hidden part on mobile */}
-          <div className="part">
-            <div className="number number-red number-2">2</div>
+          <div className="part hide-on-mobile">
+            <div className="number number-red">2</div>
             <h4>Pour les utilisateurs</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
-          {/* hidden part on mobile */}
 
-          {/* hidden part on desktop */}
-          <div className="part desktop-hidden">
+          {/* hide on desktop */}
+          <div className="part hide-on-desktop">
             <div className="number number-red">3</div>
-            <h4>Pour les utilisateurs</h4>
+            <h4>Pour le Mali</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
               eos, ipsam doloribus nostrum ex iste.
             </p>
           </div>
-          {/* hidden part on desktop */}
+          {/* hide on desktop */}
 
-          {/* bottom part */}
           <div className="part">
-            <div className="number number-4">4</div>
+            <div className="number">4</div>
             <h4>Pour l&apos;Afrique</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
@@ -97,6 +90,7 @@ export const Goals = () => {
             </p>
           </div>
         </div>
+        {/* bottom-right section */}
       </div>
     </section>
   );
