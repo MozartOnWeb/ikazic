@@ -19,7 +19,7 @@ const NavBar = () => {
           duration={500}
           offset={-200}
         >
-          Acceuil
+          Accueil
         </Link>
         <Link
           activeClass="active"

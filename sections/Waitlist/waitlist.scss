@@ -43,11 +43,12 @@
         font-size: 1rem;
         background: linear-gradient($background_color, $background_color)
             padding-box,
-          linear-gradient(90deg, $green, $red) border-box;
+          linear-gradient(115deg, $green, $red, $green) border-box;
         border: 1px solid transparent;
         font-family: $heading_font;
         color: $white;
         outline: none;
+        animation: play 2s ease-in infinite;
       }
       .submit {
         position: absolute;
@@ -60,6 +61,21 @@
         width: 30%;
         cursor: pointer;
       }
+    }
+  }
+
+  @keyframes play {
+    0% {
+      background-position: 0px;
+      background-size: 200%;
+    }
+    50% {
+      background-position: -390px;
+      background-size: 200%;
+    }
+    100% {
+      background-position: 0px;
+      background-size: 200%;
     }
   }
 

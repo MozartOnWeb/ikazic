@@ -50,13 +50,33 @@ nav {
     align-items: center;
     text-decoration: none;
     color: $white;
-    background: linear-gradient(90deg, $green30 0%, $red30 100%);
+    width: 6rem;
+    height: 2.5rem;
+    background: linear-gradient(90deg, $green30, $red30);
     cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    &:hover {
+      background: linear-gradient(115deg, $green, $red, $green);
+      animation: spin 1s ease-in infinite;
+      span {
+        background-color: $background_color;
+        padding: 0.67rem 1.25rem;
+      }
+    }
 
     span {
+      transition: font-weight 0.3s ease;
+      background-origin: top left;
       font-family: $heading_font;
       font-weight: 400;
       font-size: 0.95rem;
+      //background-color: $background_color;
+      //padding: 0.65rem 1.25rem;
     }
   }
 
@@ -93,4 +113,20 @@ nav {
     }
   }
   //Responsive
+
+  //keyframes
+  @keyframes spin {
+    0% {
+      background-position: 0px;
+      background-size: 200%;
+    }
+    50% {
+      background-position: -50px;
+      background-size: 200%;
+    }
+    100% {
+      background-position: 0px;
+      background-size: 200%;
+    }
+  }
 }
