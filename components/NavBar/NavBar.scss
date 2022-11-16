@@ -11,6 +11,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  opacity: 0.5;
+  transform: translateY(30px);
 
   .scrollIndicator {
     position: absolute;

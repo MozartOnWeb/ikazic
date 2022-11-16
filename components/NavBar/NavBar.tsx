@@ -1,10 +1,31 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import { Link } from "react-scroll";
 
 //import logo
 import logo from "../../assets/extra/logo.png";
 
+//import gsap
+import gsap from "gsap";
+
 const NavBar = () => {
+  useEffect(() => {
+    gsap.to("nav", {
+      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.5,
+    });
+    gsap.to(".first-heading", {
+      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.5,
+    });
+  }, []);
+
   return (
     <nav>
       <div className="logo">

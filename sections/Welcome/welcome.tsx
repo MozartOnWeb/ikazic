@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+//import gsap
+import gsap from "gsap";
 
 //Import Icons & SVG
 import welcomeWaves from "../../assets/extra/welcomeWaves.svg";
@@ -9,6 +12,38 @@ import google from "../../assets/icons/google.png";
 import welcomeMockup from "../../assets/mockups/welcome.png";
 
 export const Welcome = () => {
+  // useEffect(() => {
+  //   gsap.to(".welcome-waves", {
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 2,
+  //   });
+  //   gsap.to(".first-heading", {
+  //     "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 1,
+  //   });
+  //   gsap.to(".second-heading", {
+  //     "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 1,
+  //   });
+  //   gsap.to(".description", {
+  //     "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 0.5,
+  //   });
+  //   gsap.to(".store", {
+  //     "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 1,
+  //     stagger: 0.5,
+  //   });
+  // });
   return (
     <section id="welcome">
       <div className="welcome-waves">
