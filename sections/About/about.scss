@@ -191,4 +191,14 @@
       }
     }
   }
+
+  @media (max-width: 480px) {
+    .bottom-section {
+      .mockups {
+        img {
+          pointer-events: none;
+        }
+      }
+    }
+  }
 }
