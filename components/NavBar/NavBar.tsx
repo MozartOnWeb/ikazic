@@ -17,13 +17,6 @@ const NavBar = () => {
       duration: 1,
       stagger: 0.5,
     });
-    gsap.to(".first-heading", {
-      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
-      opacity: 1,
-      y: 0,
-      duration: 1,
-      stagger: 0.5,
-    });
   }, []);
 
   return (

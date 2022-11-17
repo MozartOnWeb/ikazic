@@ -24,6 +24,7 @@
     font-size: clamp(2rem, 4vw + 1rem, 4rem);
     font-weight: bold;
     margin-top: 10vw;
+    z-index: -1;
   }
 
   .right-section {
@@ -207,10 +208,12 @@
       }
     }
     .first-heading {
-      line-height: 1.2;
       font-size: 4rem;
       font-weight: bold;
       margin-top: 5vw;
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+      transform: translateY(100px);
+      opacity: 0.5;
     }
     .welcome-mockup {
       position: absolute;

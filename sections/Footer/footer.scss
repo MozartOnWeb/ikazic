@@ -61,7 +61,8 @@
     .divider {
       height: 1px;
       width: 90vw;
-      background: linear-gradient(90deg, $red30, $green, $red30);
+      background: linear-gradient(115deg, $red30, $green, $red30);
+      animation: divider 2.5s ease-in infinite;
     }
     .copyright-content {
       display: flex;
@@ -81,12 +82,6 @@
   @media (max-width: 1024px) {
     padding: 3rem 5rem;
     .content {
-      .ikazic {
-        img {
-        }
-        p {
-        }
-      }
       .details {
         h3 {
           font-size: 1.2rem;
@@ -100,14 +95,6 @@
       }
       .last-detail {
         align-self: auto;
-      }
-    }
-    .bottom-section {
-      .divider {
-      }
-      .copyright-content {
-        span {
-        }
       }
     }
   }
@@ -132,5 +119,20 @@
   }
   @media (max-width: 480px) {
     padding: 4rem 3rem;
+  }
+
+  @keyframes divider {
+    0% {
+      background-position: 0px;
+      background-size: 100%;
+    }
+    50% {
+      background-position: -360px;
+      background-size: 100%;
+    }
+    100% {
+      background-position: 0px;
+      background-size: 100%;
+    }
   }
 }
