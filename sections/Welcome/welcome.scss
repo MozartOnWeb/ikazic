@@ -62,7 +62,7 @@
       align-items: center;
       padding: 0.6rem 0.5rem;
       width: 9rem;
-      background: linear-gradient(90deg, $green30 0%, $red30 100%);
+      background: linear-gradient(90deg, $green30, $red30);
 
       img {
         width: 1.8rem;
@@ -200,6 +200,8 @@
       left: 38%;
       position: absolute;
       z-index: -2;
+      opacity: 0;
+      transform: scale(0);
 
       img {
         width: 100%;
@@ -208,8 +210,8 @@
       }
     }
     .first-heading {
-      font-size: 4rem;
-      font-weight: bold;
+      font-size: 4.5rem;
+      font-weight: 800;
       margin-top: 5vw;
       clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
       transform: translateY(100px);
@@ -222,15 +224,20 @@
       width: 50vw;
       height: 50vw;
       z-index: -1;
+      opacity: 0;
+      transform: scaleX(0);
     }
     .right-section {
       text-align: left;
       width: 30vw;
       margin-top: 25vw;
       .second-heading {
-        font-size: 3.5rem;
-        font-weight: bold;
+        font-size: 4rem;
+        font-weight: 800;
         margin-bottom: 0.5rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+        transform: translateY(50px);
+        opacity: 0.5;
       }
 
       .description {
@@ -239,10 +246,14 @@
         font-size: 0.8rem;
         margin-bottom: 2rem;
         line-height: 1rem;
+        transform: translateY(50px);
+        opacity: 0;
       }
     }
     .stores {
       justify-content: space-between;
+      transform: translateY(50px);
+      opacity: 0;
       .store {
         padding: 0.8rem 0.7rem;
         width: 13vw;

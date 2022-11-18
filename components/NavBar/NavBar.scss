@@ -63,11 +63,13 @@ nav {
     overflow: hidden;
 
     &:hover {
-      background: linear-gradient(115deg, $green, $red, $green);
+      background: linear-gradient($background_color, $background_color)
+          padding-box,
+        linear-gradient(115deg, $green, $red, $green) border-box;
+      border: 1px solid transparent;
       animation: spin 1s ease-in infinite;
       span {
-        background-color: $background_color;
-        padding: 0.67rem 1.25rem;
+        font-weight: 500;
       }
     }
 
@@ -77,8 +79,6 @@ nav {
       font-family: $heading_font;
       font-weight: 400;
       font-size: 0.95rem;
-      //background-color: $background_color;
-      //padding: 0.65rem 1.25rem;
     }
   }
 

@@ -13,17 +13,46 @@ import welcomeMockup from "../../assets/mockups/welcome.png";
 
 export const Welcome = () => {
   useEffect(() => {
-    //  gsap.to(".welcome-waves", {
-    //    opacity: 1,
-    //    y: 0,
-    //    duration: 2,
-    //  });
+    gsap.to(".welcome-waves", {
+      opacity: 1,
+      scale: 1,
+      duration: 0.85,
+      delay: 0.2,
+      ease: "Expo.easeOut",
+    });
+    gsap.to(".welcome-mockup", {
+      opacity: 1,
+      scaleX: 1,
+      duration: 1.3,
+      delay: 0.45,
+      ease: "Expo.easeOut",
+    });
     gsap.to(".first-heading", {
       "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
       opacity: 1,
       y: 0,
       duration: 1.3,
-      delay: 0.2,
+      delay: 0.8,
+    });
+    gsap.to(".second-heading", {
+      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+      opacity: 1,
+      y: 0,
+      duration: 1.3,
+      delay: 1,
+    });
+    gsap.to(".description", {
+      opacity: 1,
+      y: 0,
+      duration: 1.1,
+      delay: 1.3,
+    });
+    gsap.to(".stores", {
+      y: 0,
+      opacity: 1,
+      duration: 0.6,
+      delay: 1.6,
+      stagger: 0.5,
     });
   }, []);
   return (
