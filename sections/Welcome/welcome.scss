@@ -17,12 +17,12 @@
 
   h1 {
     font-family: $heading_font;
+    text-transform: uppercase;
   }
 
   .first-heading {
-    line-height: 1.2;
     font-size: clamp(2rem, 4vw + 1rem, 4rem);
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 10vw;
     z-index: -1;
   }
@@ -31,7 +31,7 @@
     text-align: center;
     .second-heading {
       font-size: clamp(1.8rem, 4vw + 1rem, 3.8rem);
-      font-weight: bold;
+      font-weight: bolder;
       margin-bottom: 1rem;
     }
 
@@ -201,7 +201,7 @@
       position: absolute;
       z-index: -2;
       opacity: 0;
-      transform: scale(0);
+      transform: scale(0.9);
 
       img {
         width: 100%;
@@ -210,12 +210,12 @@
       }
     }
     .first-heading {
-      font-size: 4.5rem;
-      font-weight: 800;
+      font-size: 4rem;
       margin-top: 5vw;
       clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
       transform: translateY(100px);
       opacity: 0.5;
+      line-height: 1.5;
     }
     .welcome-mockup {
       position: absolute;
@@ -224,16 +224,15 @@
       width: 50vw;
       height: 50vw;
       z-index: -1;
+      transform: scale(0.8);
       opacity: 0;
-      transform: scaleX(0);
     }
     .right-section {
       text-align: left;
       width: 30vw;
       margin-top: 25vw;
       .second-heading {
-        font-size: 4rem;
-        font-weight: 800;
+        font-size: 3.5rem;
         margin-bottom: 0.5rem;
         clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
         transform: translateY(50px);

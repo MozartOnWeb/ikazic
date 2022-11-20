@@ -21,11 +21,11 @@ export const Welcome = () => {
       ease: "Expo.easeOut",
     });
     gsap.to(".welcome-mockup", {
+      scale: 1,
       opacity: 1,
-      scaleX: 1,
-      duration: 1.3,
+      duration: 1,
       delay: 0.45,
-      ease: "Expo.easeOut",
+      ease: "Power3.easeOut",
     });
     gsap.to(".first-heading", {
       "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
@@ -39,19 +39,19 @@ export const Welcome = () => {
       opacity: 1,
       y: 0,
       duration: 1.3,
-      delay: 1,
+      delay: 1.2,
     });
     gsap.to(".description", {
       opacity: 1,
       y: 0,
       duration: 1.1,
-      delay: 1.3,
+      delay: 1.4,
     });
     gsap.to(".stores", {
       y: 0,
       opacity: 1,
       duration: 0.6,
-      delay: 1.6,
+      delay: 1.8,
       stagger: 0.5,
     });
   }, []);
