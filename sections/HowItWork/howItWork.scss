@@ -5,6 +5,10 @@
   display: flex;
   justify-content: space-between;
   padding: 5rem 4rem;
+  .how-it-work-desc {
+    transform: translateX(20px);
+    opacity: 0;
+  }
   .left-section {
     margin-top: 2.5rem;
     h1 {
@@ -43,6 +47,8 @@
     .step {
       display: flex;
       margin-bottom: 1.5rem;
+      transform: translateX(20px);
+      opacity: 0;
       .number {
         width: 100%;
         font-family: $heading_font;
