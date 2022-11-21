@@ -33,23 +33,11 @@ export const Welcome = () => {
       duration: 1.3,
       delay: 0.8,
     });
-    gsap.to(".second-heading", {
+    gsap.to(".left-desc", {
       opacity: 1,
       x: 0,
-      duration: 1.3,
-      delay: 1.2,
-    });
-    gsap.to(".description", {
-      opacity: 1,
-      y: 0,
       duration: 1.1,
-      delay: 1.4,
-    });
-    gsap.to(".store", {
-      y: 0,
-      opacity: 1,
-      duration: 0.6,
-      delay: 1.8,
+      delay: 1.2,
       stagger: 0.2,
     });
   }, []);
@@ -69,19 +57,19 @@ export const Welcome = () => {
         priority={true}
       />
       <div className="right-section">
-        <h1 className="second-heading">Ikazic</h1>
-        <p className="description">
+        <h1 className="second-heading left-desc">Ikazic</h1>
+        <p className="description left-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
         <div className="stores">
-          <Link href={"/#"} className="store">
+          <Link href={"/#"} className="store left-desc">
             <Image src={apple} alt="apple-logo" />
             <p>App Store</p>
           </Link>
-          <Link href={"/#"} className="store">
+          <Link href={"/#"} className="store left-desc">
             <Image src={google} alt="google-logo" />
             <p>Play Store</p>
           </Link>

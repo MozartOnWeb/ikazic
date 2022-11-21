@@ -18,8 +18,6 @@ import backward from "../../assets/icons/backward.png";
 
 //import gsap
 import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
 export const About = () => {
   useEffect(() => {
@@ -40,15 +38,14 @@ export const About = () => {
         trigger: ".about-mockups",
         start: "50px 70%",
         end: "50px 70px",
-        markers: true,
+        markers: false,
         scrub: 3,
         toggleActions: "restart none none none",
       },
-      duration: 1.5,
+      duration: 1,
       scale: 1,
-      skewX: 1,
       opacity: 1,
-      stagger: 0.7,
+      stagger: 0.5,
     });
   }, []);
 

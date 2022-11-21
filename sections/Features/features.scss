@@ -30,6 +30,15 @@
     .right-section {
       width: 50%;
 
+      .features-headlines {
+        transform: translateX(-50px);
+        opacity: 0;
+      }
+      .features-headlines2 {
+        transform: translateX(50px);
+        opacity: 0;
+      }
+
       h3 {
         font-family: $heading_font;
         font-size: 1.4rem;

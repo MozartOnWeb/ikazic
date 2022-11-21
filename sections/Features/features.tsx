@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Image from "next/image";
 import React from "react";
 
@@ -13,7 +15,41 @@ import phone from "../../assets/icons/phone.png";
 import ui from "../../assets/icons/interface.png";
 import folder from "../../assets/icons/folder.png";
 
+//import gsap
+import gsap from "gsap";
+
 export const Features = () => {
+  useEffect(() => {
+    gsap.to(".features-headlines", {
+      scrollTrigger: {
+        trigger: ".features-headlines",
+        start: "0px 80%",
+        end: "bottom 100px",
+        markers: false,
+        toggleActions: "restart none none none",
+        scrub: true,
+      },
+      x: 0,
+      duration: 1,
+      stagger: 0.3,
+      opacity: 1,
+    });
+    gsap.to(".features-headlines2", {
+      scrollTrigger: {
+        trigger: ".features-headlines2",
+        start: "0px 80%",
+        end: "bottom 100px",
+        markers: false,
+        toggleActions: "restart none none none",
+        scrub: true,
+      },
+      x: 0,
+      duration: 1,
+      stagger: 0.3,
+      opacity: 1,
+    });
+  }, []);
+
   return (
     <div id="features">
       <section className="features-item">
@@ -26,13 +62,13 @@ export const Features = () => {
           />
         </div>
         <div className="right-section">
-          <h3>fonctionnalités</h3>
-          <h1>
+          <h3 className="features-headlines">fonctionnalités</h3>
+          <h1 className="features-headlines">
             Parceque nous <br /> Adorons la musique !
           </h1>
           {/* features list */}
           <div className="features-list">
-            <div className="list-item">
+            <div className="list-item features-headlines">
               <div className="icon">
                 <Image src={forward} alt="forward icon" />
               </div>
@@ -45,7 +81,7 @@ export const Features = () => {
               </div>
             </div>
 
-            <div className="list-item">
+            <div className="list-item features-headlines">
               <div className="icon">
                 <Image src={download} alt="download icon" />
               </div>
@@ -58,7 +94,7 @@ export const Features = () => {
               </div>
             </div>
 
-            <div className="list-item">
+            <div className="list-item features-headlines">
               <div className="icon">
                 <Image src={money} alt="money icon" />
               </div>
@@ -85,13 +121,13 @@ export const Features = () => {
           />
         </div>
         <div className="right-section">
-          <h3>fonctionnalités</h3>
-          <h1>
+          <h3 className="features-headlines2">fonctionnalités</h3>
+          <h1 className="features-headlines2">
             Parceque nous <br /> Adorons la musique !
           </h1>
           {/* features list */}
           <div className="features-list">
-            <div className="list-item">
+            <div className="list-item features-headlines2">
               <div className="icon">
                 <Image src={phone} alt="phone icon" />
               </div>
@@ -104,7 +140,7 @@ export const Features = () => {
               </div>
             </div>
 
-            <div className="list-item">
+            <div className="list-item features-headlines2">
               <div className="icon">
                 <Image src={ui} alt="ui icon" />
               </div>
@@ -117,7 +153,7 @@ export const Features = () => {
               </div>
             </div>
 
-            <div className="list-item">
+            <div className="list-item features-headlines2">
               <div className="icon">
                 <Image src={folder} alt="folder icon" />
               </div>

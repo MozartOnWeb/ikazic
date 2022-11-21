@@ -17,7 +17,6 @@
 
   h1 {
     font-family: $heading_font;
-    text-transform: uppercase;
   }
 
   .first-heading {
@@ -243,7 +242,7 @@
         font-size: 0.8rem;
         margin-bottom: 2rem;
         line-height: 1rem;
-        transform: translateY(50px);
+        transform: translateX(-50px);
         opacity: 0;
       }
     }
@@ -252,7 +251,7 @@
       .store {
         padding: 0.8rem 0.7rem;
         width: 13vw;
-        transform: translateY(40px);
+        transform: translateX(-50px);
         opacity: 0;
 
         img {
