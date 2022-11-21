@@ -28,16 +28,14 @@ export const Welcome = () => {
       ease: "Power3.easeOut",
     });
     gsap.to(".first-heading", {
-      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
       opacity: 1,
-      y: 0,
+      x: 0,
       duration: 1.3,
       delay: 0.8,
     });
     gsap.to(".second-heading", {
-      "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
       opacity: 1,
-      y: 0,
+      x: 0,
       duration: 1.3,
       delay: 1.2,
     });
@@ -47,12 +45,12 @@ export const Welcome = () => {
       duration: 1.1,
       delay: 1.4,
     });
-    gsap.to(".stores", {
+    gsap.to(".store", {
       y: 0,
       opacity: 1,
       duration: 0.6,
       delay: 1.8,
-      stagger: 0.5,
+      stagger: 0.2,
     });
   }, []);
   return (
