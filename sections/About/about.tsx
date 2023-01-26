@@ -44,6 +44,7 @@ export const About = () => {
       },
       duration: 1,
       scale: 1,
+      skewY: 0,
       opacity: 1,
       stagger: 0.5,
     });
@@ -57,10 +58,11 @@ export const About = () => {
           Pour la communauté, par la communauté
         </h1>
         <p className="about-top-section">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Une expérience de streaming créée pour vous, par vous. Partagez vos
+          playlists avec la communauté et découvrez celles des autres.
+          Contribuez à façonner l&apos;application en donnant votre avis sur les
+          chansons et les artistes. Pour la communauté, par la communauté, notre
+          application est faite pour vous.
         </p>
       </div>
 

@@ -75,8 +75,10 @@ export const Features = () => {
               <div className="content">
                 <h4>Streaming illimité</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Streaming sans limites avec notre service illimité. Accédez à
+                  des milliers d&apos;artistes et d&apos;albums à tout moment.
+                  Profitez d&apos;une qualité sonore exceptionnelle et
+                  d&apos;une expérience de streaming fluide.
                 </p>
               </div>
             </div>
@@ -88,8 +90,9 @@ export const Features = () => {
               <div className="content">
                 <h4>Ecoutez vos morceaux hors ligne</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Ne manquez jamais une chanson grâce à notre fonctionnalité
+                  d&apos;écoute hors ligne. Téléchargez vos morceaux préférés
+                  pour écouter sans connexion internet.
                 </p>
               </div>
             </div>
@@ -101,8 +104,9 @@ export const Features = () => {
               <div className="content">
                 <h4>Achetez vos albums favoris</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Découvrez les meilleurs albums de vos artistes préférés et
+                  ajouté les à collection personnelle en les achetant
+                  directement sur notre plateforme.
                 </p>
               </div>
             </div>
@@ -134,8 +138,10 @@ export const Features = () => {
               <div className="content">
                 <h4>Une application cross-plateforme</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Notre application est là pour tous. Disponible sur iOS et
+                  Android, elle vous permet de profiter de votre musique
+                  préférée sur n&apos;importe quel appareil mobile. On oublie
+                  personne.
                 </p>
               </div>
             </div>
@@ -147,8 +153,9 @@ export const Features = () => {
               <div className="content">
                 <h4>Une interface simple et épurée</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Notre interface est conçue pour vous faciliter la vie. Simple
+                  et épurée, elle vous permet de naviguer facilement dans votre
+                  bibliothèque de musique.
                 </p>
               </div>
             </div>
@@ -160,8 +167,9 @@ export const Features = () => {
               <div className="content">
                 <h4>Un lecteur local</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate illum porro doloribus, laboriosam blanditiis.
+                  Notre lecteur de musique local vous permet d&apos;accéder et
+                  d&apos;écouter les morceaux stockés sur sur appareil. Ikazic
+                  est une plateforme qui centralise votre bibliothèque.
                 </p>
               </div>
             </div>

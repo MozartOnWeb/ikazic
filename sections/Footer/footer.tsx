@@ -61,8 +61,8 @@ const Footer = () => {
 
         <div className="details last-detail">
           <h3>A propos de nous</h3>
-          <p>L&apos;équipe</p>
-          <p>Notre Histoire</p>
+          <p>Par l&apos;équipe de</p>
+          <p>Yoboo Studio</p>
         </div>
       </div>
       <div className="bottom-section">

@@ -9,10 +9,12 @@ export const Goals = () => {
     <section id="goals">
       <div className="top-section">
         <h3>Objectifs</h3>
-        <h1>Pour l&apos;expension de la musique</h1>
+        <h1>Pour l&apos;expension de la musique Malienne</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-          corrupti eaque aspernatur sed perferendis animi?
+          La musique malienne est riche en histoire et en culture, elle reflète
+          les influences de nombreux peuples qui ont peuplé cette région. Nous
+          croyons qu&apos;il est important de préserver et de partager ces
+          traditions musicales avec le monde entier.
         </p>
       </div>
 
@@ -23,8 +25,8 @@ export const Goals = () => {
             <div className="number">1</div>
             <h4>Pour les artistes</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Permettre à tout artistes maliens, sans distinction de genre
+              musical de distribuer sa musique facilement.
             </p>
           </div>
 
@@ -33,8 +35,8 @@ export const Goals = () => {
             <div className="number number-red">2</div>
             <h4>Pour les utilisateurs</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Offrir la meilleure expérience musicale possible en vous
+              connectant à la musique malienne authentique et diversifiée.
             </p>
           </div>
           {/* hide on desktop */}
@@ -43,8 +45,8 @@ export const Goals = () => {
             <div className="number number-red">3</div>
             <h4>Pour le Mali</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Contribuer au développement du secteur musical du Mali en
+              apportant une solution de distribution moderne de la musique.
             </p>
           </div>
         </div>
@@ -65,8 +67,8 @@ export const Goals = () => {
             <div className="number number-red">2</div>
             <h4>Pour les utilisateurs</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Offrir la meilleure expérience musicale possible en vous
+              connectant à la musique malienne authentique et diversifiée.
             </p>
           </div>
 
@@ -75,8 +77,8 @@ export const Goals = () => {
             <div className="number number-red">3</div>
             <h4>Pour le Mali</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Contribuer au développement du secteur musical du Mali en
+              apportant une solution de distribution moderne de la musique.
             </p>
           </div>
           {/* hide on desktop */}
@@ -85,8 +87,9 @@ export const Goals = () => {
             <div className="number">4</div>
             <h4>Pour l&apos;Afrique</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-              eos, ipsam doloribus nostrum ex iste.
+              Nous voulons également créer un pont entre les artistes africains
+              et le monde entier et leur permettre établir un public
+              international.
             </p>
           </div>
         </div>

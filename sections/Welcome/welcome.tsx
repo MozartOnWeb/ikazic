@@ -59,10 +59,11 @@ export const Welcome = () => {
       <div className="right-section">
         <h1 className="second-heading left-desc">Ikazic</h1>
         <p className="description left-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          IKAZIC est une application de streaming cross-plateformes. Elle a pour
+          objectifs, de promouvoir la musique malienne en offrant aux artistes
+          une plateforme de distribution moderne et performante pour leurs
+          œuvres ; elle permettra aux utilisateurs d’accéder à la musique
+          malienne avec facilité.
         </p>
         <div className="stores">
           <Link href={"/#"} className="store left-desc">

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Waitlist = () => {
+export const Waitlist = ({ onSubmitted }: any) => {
   //submit form function
   const handleSubmit = (e: any) => {
     e.preventDefault();
@@ -10,6 +10,7 @@ export const Waitlist = () => {
     const formData = new FormData(form);
 
     const email = formData.get("email");
+    onSubmitted({ EMAIL: email });
 
     form.reset();
 
@@ -22,8 +23,8 @@ export const Waitlist = () => {
         <h3>Waitlist</h3>
         <h1>Rejoindre la liste d&apos;attente</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit
-          dignissimos sapiente. Assumenda, aliquam omnis!
+          En attendant la sortie de Ikazic, vous pouvez rejoindre la liste
+          d&apos;attente pour être notifier à sa sortie.
         </p>
       </div>
 

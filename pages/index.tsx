@@ -12,6 +12,8 @@ import {
   Footer,
 } from "../sections";
 
+import NewsletterSubscribe from "../sections/Waitlist/NewsletterSubscribe";
+
 //Import components
 import NavBar from "../components/NavBar/NavBar";
 
@@ -34,7 +36,7 @@ export default function Home() {
         <Features />
         <Goals />
         <FAQs />
-        <Waitlist />
+        <NewsletterSubscribe />
       </div>
       <Footer />
     </div>

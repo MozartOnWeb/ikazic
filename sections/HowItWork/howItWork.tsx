@@ -59,10 +59,10 @@ const HowItWork = () => {
           Tout devient <br /> Tellement plus <br /> Simple !
         </h1>
         <p className="how-it-work-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Simplifiez votre expérience de streaming. Accédez à des millions de
+          chansons en un seul clic. Créez des playlists personnalisées et
+          écoutez sans interruption. Avec notre application, tout devient
+          tellement plus simple.
         </p>
         <Link href={"/#"} className="download how-it-work-desc">
           <span>Waitlist</span>
@@ -77,9 +77,10 @@ const HowItWork = () => {
           <div className="content">
             <h3 className="headline">Créez votre compte</h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Inscrivez-vous dès maintenant pour accéder à tous nos services
+              exclusifs. Créez un compte en quelques étapes simples et rapides.
+              Profitez de notre plateforme en toute sécurité et en toute
+              simplicité.
             </p>
             <div className="line"></div>
           </div>
@@ -90,9 +91,10 @@ const HowItWork = () => {
           <div className="content">
             <h3 className="headline">Accédez à la bibliothèque</h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Découvrez votre collection de musique personnelle en un seul clic.
+              Accédez à votre bibliothèque à partir de n&apos;importe où et à
+              tout moment. Profitez de vos chansons préférées en streaming haute
+              qualité.
             </p>
             <div className="line"></div>
           </div>
@@ -103,9 +105,10 @@ const HowItWork = () => {
           <div className="content">
             <h3 className="headline">Ecoutez sans limite</h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Laissez votre musique vous accompagner partout avec notre service
+              d&apos;écoute illimité. Découvrez de nouveaux artistes et albums
+              sans limite. Profitez de la meilleure expérience d&apos;écoute de
+              musique en ligne.
             </p>
           </div>
         </div>
