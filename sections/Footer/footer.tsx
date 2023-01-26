@@ -12,9 +12,12 @@ const Footer = () => {
         <div className="ikazic">
           <Image src={Logo} alt="ikazic logo" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Exercitationem, dolore similique? Minima, voluptatum nostrum nulla
-            facilis ea, quibusdam voluptate molestiae.
+            IKAZIC, pour un début, à pour cible tout malien qui écoute de la
+            musique. Elle cible également tout artistes maliens, sans
+            distinction de genre musical souhaitant distribuer sa musique
+            facilement. Elle ambitionne de s’étendre vers toute l’Afrique afin
+            de mettre en avant nos artistes, peu importe l’origine ou la langue
+            parlée.
           </p>
         </div>
 

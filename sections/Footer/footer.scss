@@ -22,6 +22,7 @@
         margin-bottom: 2rem;
         line-height: 1rem;
         width: 100%;
+        text-align: justify;
       }
     }
     .details {
@@ -108,6 +109,9 @@
       text-align: center;
       .ikazic {
         width: 100%;
+        p {
+          text-align: center;
+        }
       }
       .details {
         margin-bottom: 2rem;

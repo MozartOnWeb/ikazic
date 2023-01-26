@@ -24,7 +24,7 @@ export default function Home() {
         <title>IKAZIC</title>
         <meta
           name="description"
-          content="Ikazic, La meilleure plateforme de streaming au Mali."
+          content="Ikazic, La meilleure plateforme de streaming audio au Mali."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

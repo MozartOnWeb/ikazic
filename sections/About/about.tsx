@@ -37,10 +37,10 @@ export const About = () => {
       scrollTrigger: {
         trigger: ".about-mockups",
         start: "50px 70%",
-        end: "50px 70px",
+        //end: "50px 70px",
         markers: false,
-        scrub: 3,
-        toggleActions: "restart none none none",
+        //scrub: 3,
+        //toggleActions: "restart none none none",
       },
       duration: 1,
       scale: 1,
