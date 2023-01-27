@@ -86,6 +86,8 @@ nav {
   //Responsive
   @media screen and (max-width: 768px) {
     padding-block: 15px;
+    margin-left: 35px;
+    width: 100%;
     .links {
       display: none;
     }
