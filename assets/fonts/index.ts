@@ -41,3 +41,14 @@ export const inter = localFont({
   ],
   variable: "--inter",
 });
+
+export const satoshi = localFont({
+  src: [
+    {
+      path: "./Satoshi/Satoshi-Variable.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--satoshi",
+});
