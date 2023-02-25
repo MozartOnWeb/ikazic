@@ -1,11 +1,21 @@
 html {
+  box-sizing: border-box;
   background-color: $background_color;
   color: $white;
   font-family: $body-font;
   overflow-x: hidden;
 }
+
+body {
+  margin: 0;
+}
+
 .container {
-  width: 90vw;
-  padding: 0px 2vw;
-  margin: 0px auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5em;
+
+  @media screen and (max-width: 412px) {
+    padding: 0 2em;
+  }
 }
