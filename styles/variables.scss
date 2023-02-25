@@ -1,8 +1,8 @@
 /* Font families*/
-$body-font: "Inter";
+$body-font: var(--inter);
 // $heading-font: "Satoshi-Variable";
-$heading-font: "Poppins";
-$fav-font: "ClashDisplay-Variable";
+$heading-font: var(--inter);
+$fav-font: var(--clashDisplay);
 
 /* Base colors*/
 $green: #0a9396;

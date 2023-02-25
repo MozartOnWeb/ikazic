@@ -5,7 +5,7 @@
     text-align: center;
     margin-bottom: 5rem;
     h3 {
-      font-family: $heading_font;
+      font-family: $body-font;
       font-size: 1.4rem;
       font-weight: 200;
       color: $green;
@@ -15,7 +15,7 @@
       opacity: 0;
     }
     h1 {
-      font-family: $heading_font;
+      font-family: $fav-font;
       font-size: 2.8rem;
       font-weight: bold;
       color: $white;
@@ -24,7 +24,7 @@
       opacity: 0;
     }
     p {
-      font-family: $body_font;
+      font-family: $body-font;
       font-weight: 200;
       font-size: 0.8rem;
       margin-bottom: 2rem;
@@ -159,7 +159,6 @@
         margin-bottom: 0.5rem;
       }
       p {
-        font-family: $body_font;
         font-weight: 200;
         font-size: 0.7rem;
         margin-bottom: 2rem;
@@ -198,7 +197,6 @@
         margin-bottom: 0.4rem;
       }
       p {
-        font-family: $body_font;
         font-weight: 200;
         font-size: 0.7rem;
         margin-bottom: 2rem;
