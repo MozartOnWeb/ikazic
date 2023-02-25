@@ -1,6 +1,6 @@
 nav {
   font-family: $heading-font;
-  margin-inline: auto;
+  margin: 0 auto;
   position: sticky;
   top: 0;
   left: 0;
@@ -15,14 +15,6 @@ nav {
   z-index: 100;
   opacity: 0.5;
   transform: translateY(30px);
-
-  .scrollIndicator {
-    position: absolute;
-    width: 40%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-  }
 
   .logo img {
     width: 55px;
@@ -87,7 +79,6 @@ nav {
   //Responsive
   @media screen and (max-width: 768px) {
     padding-block: 15px;
-    margin-left: 35px;
     width: 100%;
     .links {
       display: none;

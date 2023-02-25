@@ -4,12 +4,8 @@ html {
   font-family: $body-font;
   overflow-x: hidden;
 }
-
 .container {
   width: 90vw;
-  padding-inline: 2vw;
-  margin-inline: auto;
-  @media (max-width: 769px) {
-    margin-left: 50px;
-  }
+  padding: 0px 2vw;
+  margin: 0px auto;
 }

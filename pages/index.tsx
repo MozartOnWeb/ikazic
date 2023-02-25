@@ -22,7 +22,7 @@ import NavBar from "../components/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <div className={`${inter.variable} ${clashDisplay.variable}`}>
+    <div className={` wrapper ${inter.variable} ${clashDisplay.variable}`}>
       <Head>
         <title>IKAZIC</title>
         <meta

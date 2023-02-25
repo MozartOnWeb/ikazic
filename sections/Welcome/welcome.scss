@@ -18,7 +18,7 @@
   }
 
   h1 {
-    font-family: $heading_font;
+    font-family: $fav-font;
   }
 
   .first-heading {
@@ -69,11 +69,13 @@
         width: 1.8rem;
         height: 2.1rem;
         margin-right: 1.5rem;
-        margin-left: 0.5rem;
+        margin-left: 0.1rem;
       }
 
       p {
-        font-size: 0.8rem;
+        font-family: $body_font;
+        font-weight: 300;
+        font-size: 0.7rem;
       }
     }
   }
