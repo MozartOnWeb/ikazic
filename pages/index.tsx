@@ -12,6 +12,9 @@ import {
   Footer,
 } from "../sections";
 
+//import fonts
+import { clashDisplay, inter } from "../assets/fonts";
+
 import NewsletterSubscribe from "../sections/Waitlist/NewsletterSubscribe";
 
 //Import components
@@ -19,7 +22,7 @@ import NavBar from "../components/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <div>
+    <div className={`${inter.variable} ${clashDisplay.variable}`}>
       <Head>
         <title>IKAZIC</title>
         <meta
