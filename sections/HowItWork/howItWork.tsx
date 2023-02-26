@@ -9,18 +9,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 const HowItWork = () => {
   useEffect(() => {
-    gsap.to("#how-it-work", {
-      scrollTrigger: {
-        trigger: "#how-it-work",
-        start: "20px 80%",
-        end: "bottom 100px",
-        toggleActions: "restart none none none",
-        scrub: true,
-        markers: false,
-      },
-      duration: 2,
-      scale: 1.1,
-    });
+    // gsap.to("#how-it-work", {
+    //   scrollTrigger: {
+    //     trigger: "#how-it-work",
+    //     start: "20px 80%",
+    //     end: "bottom 100px",
+    //     toggleActions: "restart none none none",
+    //     scrub: true,
+    //     markers: false,
+    //   },
+    //   duration: 2,
+    //   scale: 1.1,
+    // });
     gsap.to(".step", {
       scrollTrigger: {
         trigger: ".step",

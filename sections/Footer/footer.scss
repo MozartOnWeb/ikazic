@@ -18,11 +18,10 @@
       p {
         font-family: $body-font;
         font-weight: 200;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-bottom: 2rem;
         line-height: 1rem;
         width: 100%;
-        text-align: justify;
       }
     }
     .details {
@@ -127,6 +126,9 @@
   }
   @media (max-width: 480px) {
     padding: 4rem 2rem;
+    .content .ikazic p {
+      font-size: 0.8rem;
+    }
   }
 
   @keyframes divider {

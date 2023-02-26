@@ -5,7 +5,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding-inline: 7vw;
+  padding-inline: 3em;
   background-color: $background_color;
   // -webkit-backdrop-filter: blur(8px);
   // backdrop-filter: blur(8px);
@@ -78,7 +78,7 @@ nav {
 
   //Responsive
   @media screen and (max-width: 768px) {
-    padding-block: 15px;
+    padding-inline: 2em;
     width: 100%;
     .links {
       display: none;

@@ -105,9 +105,9 @@
     }
   }
   @media (max-width: 480px) {
+    padding: 2rem 1.5rem;
     .about-wave {
-      top: 20%;
-      right: -15%;
+      display: none;
     }
     .bottom-section {
       flex-direction: column;
