@@ -1,9 +1,8 @@
 html {
-  box-sizing: border-box;
   background-color: $background_color;
   color: $white;
   font-family: $body-font;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,6 +15,6 @@ body {
   padding: 0 5em;
 
   @media screen and (max-width: 412px) {
-    padding: 0 2em;
+    padding: 0 1em;
   }
 }

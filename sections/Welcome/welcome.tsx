@@ -44,7 +44,7 @@ export const Welcome = () => {
   return (
     <section id="welcome">
       <div className="welcome-waves">
-        <Image src={welcomeWaves} alt="ikazic waves" quality={100} />
+        <Image src={welcomeWaves} alt="ikazic waves" />
       </div>
       <h1 className="first-heading">
         Toute la musique <br /> malienne dans <br /> votre poche
