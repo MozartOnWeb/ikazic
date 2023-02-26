@@ -121,9 +121,7 @@
   //Responsive
   @media (max-width: 640px) {
     .welcome-waves {
-      img {
-        transform: initial;
-      }
+      display: none;
     }
     .stores .store {
       width: 8rem;
