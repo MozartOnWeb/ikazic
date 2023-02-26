@@ -120,6 +120,11 @@
   }
   //Responsive
   @media (max-width: 640px) {
+    .welcome-waves {
+      img {
+        transform: initial;
+      }
+    }
     .stores .store {
       width: 8rem;
       p {
@@ -129,7 +134,6 @@
         width: 1.2rem;
         height: 1.4rem;
         margin-right: 1rem;
-        transform: initial;
       }
     }
   }
