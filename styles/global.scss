@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  @media screen and (max-width: 412px) {
-    padding: 0 2em;
+  @media screen and (max-width: 512px) {
+    padding: 0em 2em;
   }
 }
